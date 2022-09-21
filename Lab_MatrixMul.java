@@ -58,7 +58,8 @@ class MatrixMulThread implements Runnable {
         datC = c;
     }
 
-    /*Q2*/ public void run(){
+    //Q2
+        public void run(){
 
         //Q3
         for(int i = 0; i < datA.data.length; i++) {
